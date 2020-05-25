@@ -1,0 +1,51 @@
+.logo {
+  width: 280px;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+#galery-custom {
+  background-color: #bdbdbd;
+  border-radius: 5px;
+}
+
+.img-custom {
+  border-radius: 5px;
+}
+
+.logo-image{
+  display: block;
+}
+
+.logo-initial{
+  display: none;
+}
+
+
+#contact-custom {
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #bdbdbd;
+  color: black !important;
+}
+
+.mob{
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .mob{
+    display: block;
+  }
+
+  .desk{
+    display: none;
+  }
+
+
+}
